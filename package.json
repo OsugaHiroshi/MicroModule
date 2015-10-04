@@ -1,0 +1,29 @@
+{
+  "name": "micro-module",
+  "version": "0.1.0",
+  "description": "micro module system in es6 for client.",
+  "main": "lib/MicroModule.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps-inline",
+    "watch": "babel src --out-dir lib --watch --source-maps-inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khirayama/MicroModule.git"
+  },
+  "keywords": [
+    "module"
+  ],
+  "author": "khirayama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khirayama/MicroModule/issues"
+  },
+  "homepage": "https://github.com/khirayama/MicroModule#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
